@@ -1,0 +1,21 @@
+﻿@model WordToPdf
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="col col-md-6 offset-3">
+    <h3 class="text-center">WordToPDF Converter</h3>
+    <hr />
+    <form asp-action="WordToPdf" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Email">Email address</label>
+            <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <input type="file" asp-for="WordFile" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <h2>@ViewBag.result</h2>
+</div>
+
