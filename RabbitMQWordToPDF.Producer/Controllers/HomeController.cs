@@ -76,9 +76,8 @@ namespace RabbitMQWordToPDF.Producer.Controllers
                     //Gönderim yapılır
                     channel.BasicPublish("convertPdfExchange", "WordToPdf", properties, byteMessage);
 
-                    ViewBag.Result = "Word dosyası pdf e dönüştürüldükten sonra size mail olarak gönderilecektir.";
-
-                    return View();
+                    
+                    return RedirectToAction("Index");
 
                 }
             }

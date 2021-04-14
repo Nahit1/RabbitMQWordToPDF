@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQWordToPDF.Producer"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQWordToPDF.Shared", "RabbitMQWordToPDF.Shared\RabbitMQWordToPDF.Shared.csproj", "{08CBD2DD-9F30-409C-89CC-642AAEC053D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQWordToPDF.Consumer", "RabbitMQWordToPDF.Consumer\RabbitMQWordToPDF.Consumer.csproj", "{9299715E-941A-4018-893F-1514AF5FDE1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{08CBD2DD-9F30-409C-89CC-642AAEC053D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08CBD2DD-9F30-409C-89CC-642AAEC053D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08CBD2DD-9F30-409C-89CC-642AAEC053D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9299715E-941A-4018-893F-1514AF5FDE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9299715E-941A-4018-893F-1514AF5FDE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9299715E-941A-4018-893F-1514AF5FDE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9299715E-941A-4018-893F-1514AF5FDE1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
